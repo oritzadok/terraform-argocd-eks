@@ -2,7 +2,7 @@
 - An existing VPC and subnets that meet Amazon EKS requirements
   (this code is not responsible of creating these resources at this time)
 - Install Terraform
-- Login to your AWS account
+- Login to your AWS account (AWS CLI)
 
 ### Deploy:
 
@@ -12,8 +12,6 @@ This variable already contains the subnet IDs of my private account as a default
 
 2) Run:
 ```
-cd terraform
-terraform init
-terraform apply --auto-approve
+bash deploy_infra.sh
 ```
 
