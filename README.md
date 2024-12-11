@@ -16,3 +16,6 @@ This variable already contains the subnet IDs of my private account as a default
 bash deploy_infra.sh
 ```
 
+### Delete:
+- Navigate to terraform/ directory and execute `terraform destroy -auto-approve`
+- Delete the AWS ELBs created for the cluster services
