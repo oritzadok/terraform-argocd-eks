@@ -1,8 +1,9 @@
 ### Prerequisites:
 - An existing VPC and subnets that meet Amazon EKS requirements
   (this code is not responsible of creating these resources at this time)
-- Install Terraform
+- Terraform installed
 - Login to your AWS account (AWS CLI)
+- kubectl installed
 
 ### Deploy:
 
