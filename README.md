@@ -6,9 +6,9 @@
 
 ### Run:
 
-1) Provide the VPC ID and subnets IDs on which you want the cluster to be created.
-This is specified using terraform variables `vpc_id` and `subnet_ids`.
-These variables already contain the VPC and subnet IDs of my private account as default choices.
+1) Provide the subnets IDs on which you want the cluster to be created.
+This is specified using terraform variable `subnet_ids`.
+This variable already contains the subnet IDs of my private account as a default choice.
 
 2) 
 ```
