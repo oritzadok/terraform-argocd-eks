@@ -19,3 +19,4 @@ bash deploy_infra.sh
 ### Delete:
 - Navigate to terraform/ directory and execute `terraform destroy -auto-approve`
 - Delete the AWS ELBs created for the cluster services
+  (better to delete the ArgoCD application for proper resource cleanup)
